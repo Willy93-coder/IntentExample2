@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IntentExample2</string>
+    <string name="btn_send">Enviar</string>
+</resources>
