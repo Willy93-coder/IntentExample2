@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RatingBar" parent="Theme.IntentExample2">
+        <item name="colorControlActivated">@color/yellow</item>
+    </style>
+</resources>
