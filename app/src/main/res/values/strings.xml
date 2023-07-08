@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">IntentExample2</string>
     <string name="btn_send">Enviar</string>
+    <string name="btn_accept">Aceptar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="msgAccept">Hola %s, ¿aceptas las condiciones?</string>
 </resources>
