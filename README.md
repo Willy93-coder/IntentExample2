@@ -1,4 +1,4 @@
-# Intent example two
+# Intent explicit example two
 ![Imagen de un input vacío](/screenshots/empty_input.png)
 ![Imagen de validación del input vacío](/screenshots/empty_validation.png)
 ![Imagen de un input con el nombre](/screenshots/input_not_empty.png)
