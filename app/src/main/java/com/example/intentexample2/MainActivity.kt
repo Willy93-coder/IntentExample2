@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.TextUtils
 import android.util.Log
 import android.view.View
 import androidx.activity.result.contract.ActivityResultContracts
@@ -42,7 +43,14 @@ class MainActivity : AppCompatActivity() {
 
         // Se oculta el TextView que mostrará el resultado
         binding.tvResult.visibility = View.INVISIBLE
-        binding.btnSend.setOnClickListener { askConditions() }
+        binding.btnSend.setOnClickListener {
+            val input = binding.etInformation.text.toString()
+            if (TextUtils.isEmpty(input)) {
+                binding.etInformation.error = "Información requerida"
+            } else {
+                askConditions()
+            }
+        }
     }
 
     private fun askConditions() {
